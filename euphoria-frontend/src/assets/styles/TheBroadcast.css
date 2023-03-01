@@ -1,0 +1,45 @@
+
+.broadcast-wrapper {
+  height: inherit;
+  background-color: #CCCCCC;
+}
+
+.broadcast-view {
+  padding: 5%;
+  background-color: #E4DEDE
+}
+
+
+.broadcast-view > h1 {
+  color: #444444;
+  
+}
+.broadcast-view > input {
+  height: 36px;
+  width: 85%;
+  border: none;
+  border-radius: 3px;
+  padding-left: 0.5rem;
+}
+.company-tick{
+  color: #444444;
+  width: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company-tick > :last-child {
+  color: #444444;
+ margin-left: auto;
+}
+
+
+.send-broadcast {
+  border-radius: 3px;
+  background-color: #444444;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  margin-top: 15px;
+}

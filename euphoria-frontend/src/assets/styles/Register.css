@@ -1,0 +1,121 @@
+.app-wrapper {
+  justify-content: center !important;
+}
+
+.register-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 50vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.register-wrapper h1 {
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.register-input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+  align-self: center;
+}
+
+.register-input-wrapper input,
+.register-input-wrapper label {
+  border: none;
+  border-radius: 3px;
+}
+
+.company-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-list>label {
+  margin: 0;
+  height: 25px;
+}
+
+.jwt-mocker {
+  display: inherit;
+  flex-direction: row;
+  width: 100%;
+}
+
+.field-wrapper {
+  display: inherit;
+  flex-direction: column;
+  width: 100%;
+}
+
+.companies {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: auto;
+  transform: translateX(105%);
+  max-height: 32vh;
+  overflow-y: scroll;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+.companies p {
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background-color: #ffffff;
+  color: #191919;
+  z-index: 99;
+}
+
+.register-input-wrapper input,
+.register-input-wrapper,
+.company-list {
+  margin-bottom: 1em;
+}
+
+.register-input-wrapper input {
+  padding: 10px;
+}
+
+.register-button-wrapper {
+  text-align: center;
+  border: none;
+  border-radius: 3px;
+  padding: 10px;
+  background-color: #7ee6c333;
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+.register-input-wrapper a:hover {
+  background-color: #7ee6c380;
+}
+
+.register-wrapper>a {
+  font-size: 11px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.error {
+  color: #ff0000;
+  text-align: center;
+}
+
+a {
+  cursor: pointer;
+}
+
+.register-wrapper>a:hover {
+  background-color: transparent !important;
+}
